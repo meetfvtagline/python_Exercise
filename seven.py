@@ -1,3 +1,12 @@
+# To read the last element from each row and sum of the all last elements.
+# For example:
+# 	Input
+# [[8, 14, -6], [12,7,4], [-11,3,21]]
+
+# Output 
+# 19
+# 	 Note: Input should be taken from the terminal.
+
 row,col=input("Enter size of matrix row * columns : ").split()
 rows=int(row)
 cols=int(col)

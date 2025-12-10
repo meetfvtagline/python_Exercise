@@ -1,3 +1,7 @@
+# Python program to find the factorial of a number using recursion.
+#  Note: Input should be taken from the terminal.
+
+
 while True:
     n=int(input("Enter Number to find factorial: "))
 

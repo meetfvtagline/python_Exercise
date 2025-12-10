@@ -1,3 +1,5 @@
+# Python program to check whether the given integer is a multiple of 5 and 7, and 10, 56.
+#    	 Note: Input should be taken from the terminal.
 
 
 while True:
