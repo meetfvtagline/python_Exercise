@@ -1,87 +1,94 @@
-# python_Exercise
+🐍 Python Exercise
+
+📌 Exercise 1: Check Multiples
+
+Task:
+Write a Python program to check whether a given integer (from terminal input) is a multiple of:
+
+5 and 7
+
+10
+
+56
+
+📌 Exercise 2: Factorial Using Recursion
+
+Task:
+Write a Python program to compute the factorial of a number using recursion.
+Input must be taken from the terminal.
+
+📌 Exercise 3: Matrix Transpose
+
+Task:
+Given a 3×4 matrix like:
+
+[[1, 2, 3, 4],  
+ [5, 6, 7, 8],  
+ [9, 10, 11, 12]]
 
 
-1. Python Exercise (4 Hours)
-Python program to check whether the given integer is a multiple of 5 and 7, and 10, 56.
-   	 Note: Input should be taken from the terminal.
+Output the transposed matrix:
 
-Python program to find the factorial of a number using recursion.
- Note: Input should be taken from the terminal.
+[[1, 5, 9],  
+ [2, 6, 10],  
+ [3, 7, 11],  
+ [4, 8, 12]]
 
-Consider the following example of a 3x4 matrix implemented as a list of 3 lists of length.
-For example:
-	Input:
- [
-   [1, 2, 3, 4],
-   [5, 6, 7, 8],
-   [9, 10, 11, 12],
- ]
+📌 Exercise 4: Extract and Multiply Even Elements (One-Line Code)
+
+Task:
+For an input array (taken from terminal), find the even elements and multiply each even number by 2.
+One-line code requirement:
+
+No for loop
+
+No if statement
+Example:
+Input:
+
+[1, 2, 3, 4, 5]
+
 
 Output:
-[[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
+
+[4, 8]
+
+📌 Exercise 5: Remove NaN Values
+
+Task:
+Given the following input (no user input required):
+
+[56.2, float('NaN'), 51.7, 55.3, 52.5, float('NaN'), 47.8]
 
 
-2. Find the even elements from an array. Respectively multiply this element in the array.
-            For example:
+Output should remove all NaN values:
+
+[56.2, 51.7, 55.3, 52.5, 47.8]
+
+📌 Exercise 6: Flatten a List (List Comprehension + For Loop)
+
+Task:
+Flatten a 2D list into a 1D list using list comprehension. No input required.
+Example:
 Input:
- [1, 2, 3, 4, 5]
 
-Output 
- [4,8]
-
-Note: Need one line code, don't use for loop and if statement.
-Input should be taken from the terminal
-	
-
-3. Write a program.
-For example:
-    Input
-    [56.2, float('NaN'), 51.7, 55.3, 52.5, float('NaN'), 47.8]
-
-    Output 
-   [56.2, 51.7, 55.3, 52.5, 47.8]
-
-Note: No need to input
+[[1,2,3], [4,5,6], [7,8,9]]
 
 
-4. Flatten a list using list comprehension and for a loop.
-For example:
-   Input:
-   [[1,2,3], [4,5,6], [7,8,9]]
+Output:
 
-   Output: 
-    [1, 2, 3, 4, 5, 6, 7, 8, 9] 
+[1,2,3,4,5,6,7,8,9]
 
-	Note: No need to input.
+📌 Exercise 7: Sum of Last Elements of Each Row
 
+Task:
+Take matrix input from the terminal and compute the sum of the last element in each row.
+Example:
+Input:
 
-5. To read the last element from each row and sum of the all last elements.
-For example:
-	Input
 [[8, 14, -6], [12,7,4], [-11,3,21]]
 
-Output 
+
+Output:
+
 19
-	 Note: Input should be taken from the terminal.
-
-
-
-6. Flatten a list using list comprehension and for a loop.
-For example:
-   Input:
-   [[1,2,3], [4,5,6], [7,8,9]]
-
-   Output: 
-    [1, 2, 3, 4, 5, 6, 7, 8, 9] 
-
-	Note: No need to input.
-
-
-7. To read the last element from each row and sum of the all last elements.
-For example:
-	Input
-[[8, 14, -6], [12,7,4], [-11,3,21]]
-
-Output 
-19
-	 Note: Input should be taken from the terminal.
